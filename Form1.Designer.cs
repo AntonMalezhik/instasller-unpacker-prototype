@@ -185,7 +185,7 @@
             GUI_tabs_tab3.Name = "GUI_tabs_tab3";
             GUI_tabs_tab3.Size = new Size(495, 272);
             GUI_tabs_tab3.TabIndex = 2;
-            GUI_tabs_tab3.Text = "Зарвершение";
+            GUI_tabs_tab3.Text = "Завершение";
             GUI_tabs_tab3.UseVisualStyleBackColor = true;
             // 
             // GUI_checkbox_runwithexit
