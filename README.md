@@ -20,3 +20,8 @@
 ![Screenshot 2025-03-30 172207](https://github.com/user-attachments/assets/1a205d39-7136-48f3-838e-b36c18083954)
 
 Прошу учесть что вложенной папки внутри архива быть не должно, при открытии архива уже должно быть видно структуру программы для установки, а не папку программы, а после ее файлы в ней
+
+# Сборка
+
+Powershell:
+```dotnet publish -c Release -r win-x64 --self-contained true -p:PublishSingleFile=true -p:DebugType=None -p:IncludeNativeLibrariesForSelfExtract=true```
